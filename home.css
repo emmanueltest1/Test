@@ -1,0 +1,15 @@
+.im {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img {
+  /* max-width: 10%;
+  height: auto; */
+}
+.img image {
+  display: block;
+  margin-left: 100%;
+  margin-right: 100%;
+  width: 50%;
+}

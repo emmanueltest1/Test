@@ -1,0 +1,110 @@
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 70%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+small {
+  color: rgb(192, 173, 0);
+}
+.footer {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+  text-align: center;
+  margin: 50px 0 50px;
+  padding: 5px;
+  font-size: 13px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+label {
+  font-size: 12px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.form-grp span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bolder;
+  font-size: 1px;
+  visibility: hidden;
+}
+.form-grp.success input {
+  border: 1px solid rgb(35, 245, 35);
+  visibility: visible;
+}
+.form-grp.error input {
+  border: 1px solid rgb(228, 10, 10);
+  visibility: visible;
+}
+.form-grp.error span {
+  color: 1px solid rgb(228, 10, 10);
+  visibility: visible;
+}
+.form-grp.success span {
+  color: 1px solid rgb(35, 245, 35);
+  visibility: visible;
+}
+.form-grp {
+  /* padding: 20px;
+  position: relative; */
+}
+.form-grp i {
+  position: absolute;
+  right: 10px;
+  margin-top: 20px;
+  margin-right: 35px;
+  visibility: hidden;
+}
+
+.form-grp.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: rgb(228, 10, 10);
+}
+.form-grp.success i.fa-check-circle {
+  visibility: visible;
+  color: rgb(35, 245, 35);
+}
+@media screen and (max-width: 990px) {
+  input[type="submit"] {
+    width: 50%;
+    padding: 14px 20px;
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  input[type="text"],
+  select {
+    width: 90%;
+    padding: 10px 18px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  input[type="submit"] {
+    width: 50%;
+    padding: 14px 20px;
+    margin: 4px 0;
+    font-size: 13px;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+@media screen and (max-width: 990px) {
+  input[type=submit] {
+  width: 30%;
+  padding: 14px 20px;
+  margin: 4px 0;
+}
+
+}
+</style>
+<body>
+
+  
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Brand Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="e.g.Emmanuels initiatives">
+
+    <label for="country">Country</label>
+    <input type="text" id="lname" name="lastname" placeholder="E.g.emmanueladdae@gmail.com"></label>
+    
+    <label for="contact number">Contact Number</label>
+    <input type="text" id="lname" name="lastname" placeholder="E.g.233xxx xxxx "></label>
+    
+    <label for="facebook Username or url">Facebook username or url</label>
+    <input type="text" id="lname" name="lastname" placeholder="E.g.@coolrony or www.facebookcom/coolrony"></label>
+    
+    <label for="Twitter Username or url">Twitter username or url</label>
+    <input type="text" id="lname" name="lastname" placeholder="E.g.@coolrony or www.twitter.com/coolrony"></label>
+    
+    <label for="Instagram Username or url">Instagram username or url</label>
+    <input type="text" id="lname" name="lastname" placeholder="E.g.@coolrony or www.instagram.com/coolrony"></label>
+    
+    <label for="select">Select</label>
+    <select id="country" name="country">
+      <option value="australia">please select the market section that applies to you</option>
+      <option value="canada">Food(700)</option>
+      <option value="usa">Design Goods(550)</option>
+      <option value="australia">Fashion(550)</optioion>
+    </select>
+
+  <label for="Brief">Please tell us briefly about your product</label>
+    <input type="text" id="lname" name="lastname" placeholder="Say something short"></label>
+    
+    <label for="special products">What do you feel makes your products different or special?</label>
+    <input type="text" id="lname" name="lastname" placeholder="Respond"></label>
+   
+    <label for="trade">How do you plan to present your products to the public?</label>
+    <input type="text" id="lname" name="lastname" placeholder="Respond"></label>
+   
+    <label for="current">Do you currnetly trade in any other markets/stores?</label>
+    <input type="text" id="lname" name="lastname" placeholder="Respond"></label>
+    
+    <input type="submit" value="Send message">
+  </form>
+</div>
+</body>
+</html>
